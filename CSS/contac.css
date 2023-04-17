@@ -37,7 +37,8 @@ h1{
     }
 }
 a{
-    color:#d2f885
+    color:#d2f885;
+    font-size: 4vmin;
 }
 a:hover{
     color: green;   
