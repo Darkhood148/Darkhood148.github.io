@@ -24,6 +24,16 @@ body {
     height: 6vmin;
     width: 6vmin;
 }
+.navbarimg:hover{
+    animation: animok 1s forwards;
+}
+
+@keyframes animok {
+    100%{
+        height: 7vmin;
+        width: 7vmin;
+    }
+}
 
 h1, h2 {
     text-align: center;
