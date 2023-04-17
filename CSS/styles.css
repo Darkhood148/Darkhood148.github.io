@@ -11,6 +11,19 @@ body {
     align-items: center;
     flex-direction: column;
 }
+#upper{
+    display: flex;
+    flex-direction: row;
+}
+.pg{
+    width: 70vw;
+    font-size: 1vmax;
+    height: 10vh;
+}
+.navbarimg{
+    height: 6vmin;
+    width: 6vmin;
+}
 
 h1, h2 {
     text-align: center;
@@ -46,14 +59,6 @@ img{
 
 span{
     white-space: pre;
-}
-
-#fuuter{
-    margin-top: 10px;
-    width: 100vw;
-    height: 100px;
-    background-color: grey;
-    flex-direction: row;
 }
 
 .chessboard {
