@@ -16,11 +16,10 @@ h1, h2 {
     text-align: center;
 }
 
-img {
-    display: block;
-    margin-top: 1vmin;
-    margin-left: 1vmin;
-  }
+img{
+    height: 100%;
+    width: 100%;
+}
 
 .anim span {
     display: inline-block;
@@ -120,19 +119,19 @@ span{
 }
 #wq{
     position: relative;
-    top: -8vmin;
+    top: -7vmin;
     animation: mv4 4s ease-in-out forwards;
     animation-delay: 5s;
 }
 #bk{
     position: relative;
-    top: -8vmin;
+    top: -7vmin;
     animation: mv5 1s ease-in-out forwards;
     animation-delay: 6.5s;
 }
 #wr2{
     position: relative;
-    top: -8vmin;
+    top: -7vmin;
     animation: mv6 0.7s ease-in-out forwards;
     animation-delay: 9s;
 }
