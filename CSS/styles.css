@@ -19,7 +19,10 @@ h1, h2 {
 img{
     height: 100%;
     width: 100%;
+}
 
+.chessboard span{
+    position: absolute;
 }
 
 .anim span {
@@ -67,17 +70,13 @@ span{
 }
 
 #wk:hover{
-    height: 110%;
-    position: relative;
-    left: -15%;
-    top: -15%;
+    width: 13vmin;
+    height: 13vmin;
 }
 
 #wr2:hover{
-    height: 110%;
-    position: relative;
-    left: -15%;
-    top: -80%;
+    height: 13vmin;
+    width: 13vmin;
 }
 
 .black {
@@ -85,20 +84,26 @@ span{
     width: 11.25vmin;
     height: 11.25vmin;
     background-color: #999;
-      font-size:50px;
+      font-size:6vmin;
     text-align:center;
     display: table-cell;
     vertical-align:middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .white {
     float: left;
     width: 11.25vmin;
     height: 11.25vmin;
     background-color: #fff;
-    font-size:50px;
+    font-size:6vmin;
     text-align:center;
     display: table-cell;
     vertical-align:middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 @keyframes flip {
     0%,80% {
@@ -111,6 +116,8 @@ span{
 }
 
 #wk{
+    width: 11.25vmin;
+    height: 11.25vmin;
     animation: mv2 0.5s ease-in-out forwards;
     animation-delay: 1.7s;
 }
@@ -119,20 +126,23 @@ span{
     animation-delay: 3.8s;
 }
 #wq{
-    position: relative;
-    top: -7vmin;
+    position: absolute;
+    width: 11.25vmin;
+    height: 11.25vmin;
     animation: mv4 4s ease-in-out forwards;
     animation-delay: 5s;
 }
 #bk{
-    position: relative;
-    top: -7vmin;
+    position: absolute;
+    width: 11.25vmin;
+    height: 11.25vmin;
     animation: mv5 1s ease-in-out forwards;
     animation-delay: 6.5s;
 }
 #wr2{
     position: relative;
-    top: -7vmin;
+    width: 11.25vmin;
+    height: 11.25vmin;
     animation: mv6 0.7s ease-in-out forwards;
     animation-delay: 9s;
 }
